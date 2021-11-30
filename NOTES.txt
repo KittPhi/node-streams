@@ -1,0 +1,8 @@
+// First rename files, then join them into a single file
+node rename.js && node stream.js
+
+rename.js
+Program parses a file name string `Mon Jan 03 10;05;47 2011.mp3` to `100547.mp3`
+
+stream.js
+`joined-interview.mp3`
